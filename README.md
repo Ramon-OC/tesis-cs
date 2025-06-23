@@ -3,6 +3,7 @@
 Junio de 2025
 
 La estructura que tiene el proyecto es la siguiente:
+```
 
 ├── README.md
 ├── images
@@ -23,6 +24,7 @@ La estructura que tiene el proyecto es la siguiente:
     ├── otsu_binarization.m
     ├── remove_dermatoscope_values.m
     └── remove_hair.m
+```
 
 Dentro del directorio 'images' se adjuntan seis imágenes de ejemplo para probar los algoritmos. El documento 'main.m' en el directorio 'code' es el archivo ejecutable, basta con modificar la variable 'image_path' para cambiar la imagen, y la variable 'segmentation_model' para el método con el que se segmentará (0 para contornos activos y 1 para crecimiento de corte).
 
